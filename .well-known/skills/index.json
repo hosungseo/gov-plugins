@@ -1,0 +1,20 @@
+{
+  "name": "gov-plugins",
+  "description": "한국 공무원용 에이전트 스킬 카탈로그 — Agent Skills(SKILL.md) 표준, Hermes 스킬허브 well-known 소스 호환",
+  "skills": [
+    {
+      "name": "gov-proposal",
+      "description": "공무원제안서 생성 — 공무원 제안 규정(대통령령) 별지 제1호서식 구조로 아이디어를 제출 가능한 제안서로 변환. 제2조 제외사유 7종 스크리닝, 제7조 심사 5축 자가검토, law.go.kr 법령 인용 검증 포함.",
+      "files": [
+        "SKILL.md",
+        "references/anatomy.md",
+        "references/review.md",
+        "references/rhetoric.md",
+        "references/screening.md",
+        "scripts/lawdept.py",
+        "scripts/qna_evidence.py",
+        "scripts/verify_law.py"
+      ]
+    }
+  ]
+}

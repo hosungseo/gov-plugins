@@ -10,10 +10,7 @@
         "references/anatomy.md",
         "references/review.md",
         "references/rhetoric.md",
-        "references/screening.md",
-        "scripts/lawdept.py",
-        "scripts/qna_evidence.py",
-        "scripts/verify_law.py"
+        "references/screening.md"
       ]
     }
   ]
